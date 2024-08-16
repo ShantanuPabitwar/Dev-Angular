@@ -1,0 +1,1 @@
+export const ROUTE_NAME: string[] = ['tab1', 'tab2', 'tab3']

@@ -1,0 +1,27 @@
+<div class="container mt-3">
+    <h2 class="text-center">Welcome to Document Library</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Header 1</th>
+                <th scope="col">Header 2</th>
+                <th scope="col">Header 3</th>
+                <th scope="col">Header 4</th>
+                <th scope="col">Header 5</th>
+                <th scope="col">Header 6</th>
+            </tr>
+        </thead>
+        <tbody id="table-body" class="table-group-divider">
+            <tr *ngFor="let i of rank; let i2 = index">
+                <td>{{i}}</td>
+                <td>{{i * i2}}</td>
+                <td>{{i * i2 * i2}}</td>
+                <td>{{i * i2 * i2 * i2}}</td>
+                <td>{{i * i2 * i2 * i2 * i2}}</td>
+                <td>{{i * i2 * i2 * i2 * i2 * i2}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+  

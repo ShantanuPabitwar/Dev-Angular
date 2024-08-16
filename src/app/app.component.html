@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Document Library</h1>
+  
+  <div class="card p-30">
+    <div class="card-body">
+      <mat-tab-group [selectedIndex]="selectedIndex" (selectedIndexChange)="onTabChange($event)">
+        <mat-tab label="Library">
+          <app-tab1-component></app-tab1-component>
+        </mat-tab>
+        <mat-tab label="Static Documents">
+          <app-tab2-component></app-tab2-component>
+        </mat-tab>
+        <mat-tab label="Guides">
+          <app-tab3-component></app-tab3-component>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </div>
+</div>
